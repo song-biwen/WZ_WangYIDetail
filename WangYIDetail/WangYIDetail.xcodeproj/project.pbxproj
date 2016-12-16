@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C5F49311E03E40300266D3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5F49301E03E40300266D3E /* main.m */; };
+		4C5F49341E03E40300266D3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5F49331E03E40300266D3E /* AppDelegate.m */; };
+		4C5F493C1E03E40400266D3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C5F493B1E03E40400266D3E /* Assets.xcassets */; };
+		4C5F493F1E03E40400266D3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C5F493D1E03E40400266D3E /* LaunchScreen.storyboard */; };
+		4C5F49481E03E85700266D3E /* WZMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5F49471E03E85700266D3E /* WZMainController.m */; };
+		4C5F494B1E03EA0D00266D3E /* WZRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5F494A1E03EA0D00266D3E /* WZRequest.m */; };
+		BB2330954A994064A474ABB5 /* libPods-WangYiDetail.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49A2E7DFF1572F722E22EB63 /* libPods-WangYiDetail.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		49A2E7DFF1572F722E22EB63 /* libPods-WangYiDetail.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WangYiDetail.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C5F492C1E03E40300266D3E /* WangYiDetail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WangYiDetail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C5F49301E03E40300266D3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C5F49321E03E40300266D3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4C5F49331E03E40300266D3E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4C5F493B1E03E40400266D3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C5F493E1E03E40400266D3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C5F49401E03E40400266D3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C5F49461E03E85700266D3E /* WZMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZMainController.h; sourceTree = "<group>"; };
+		4C5F49471E03E85700266D3E /* WZMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZMainController.m; sourceTree = "<group>"; };
+		4C5F49491E03EA0D00266D3E /* WZRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZRequest.h; sourceTree = "<group>"; };
+		4C5F494A1E03EA0D00266D3E /* WZRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZRequest.m; sourceTree = "<group>"; };
+		8F877759AAF8119981388C06 /* Pods-WangYiDetail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WangYiDetail.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WangYiDetail/Pods-WangYiDetail.debug.xcconfig"; sourceTree = "<group>"; };
+		AE91BC4F2696486448DEF210 /* Pods-WangYiDetail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WangYiDetail.release.xcconfig"; path = "Pods/Target Support Files/Pods-WangYiDetail/Pods-WangYiDetail.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C5F49291E03E40300266D3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2330954A994064A474ABB5 /* libPods-WangYiDetail.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AC3D219CA331A21B9FFAA9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F877759AAF8119981388C06 /* Pods-WangYiDetail.debug.xcconfig */,
+				AE91BC4F2696486448DEF210 /* Pods-WangYiDetail.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4C5F49231E03E40300266D3E = {
+			isa = PBXGroup;
+			children = (
+				4C5F492E1E03E40300266D3E /* WangYiDetail */,
+				4C5F492D1E03E40300266D3E /* Products */,
+				0AC3D219CA331A21B9FFAA9E /* Pods */,
+				59A47B173FB85DCC474AEA40 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4C5F492D1E03E40300266D3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C5F492C1E03E40300266D3E /* WangYiDetail.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C5F492E1E03E40300266D3E /* WangYiDetail */ = {
+			isa = PBXGroup;
+			children = (
+				4C5F49321E03E40300266D3E /* AppDelegate.h */,
+				4C5F49331E03E40300266D3E /* AppDelegate.m */,
+				4C5F49461E03E85700266D3E /* WZMainController.h */,
+				4C5F49471E03E85700266D3E /* WZMainController.m */,
+				4C5F49491E03EA0D00266D3E /* WZRequest.h */,
+				4C5F494A1E03EA0D00266D3E /* WZRequest.m */,
+				4C5F493B1E03E40400266D3E /* Assets.xcassets */,
+				4C5F493D1E03E40400266D3E /* LaunchScreen.storyboard */,
+				4C5F49401E03E40400266D3E /* Info.plist */,
+				4C5F492F1E03E40300266D3E /* Supporting Files */,
+			);
+			path = WangYiDetail;
+			sourceTree = "<group>";
+		};
+		4C5F492F1E03E40300266D3E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C5F49301E03E40300266D3E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		59A47B173FB85DCC474AEA40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49A2E7DFF1572F722E22EB63 /* libPods-WangYiDetail.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C5F492B1E03E40300266D3E /* WangYiDetail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C5F49431E03E40400266D3E /* Build configuration list for PBXNativeTarget "WangYiDetail" */;
+			buildPhases = (
+				CA57D403D662FA73B53D2E75 /* [CP] Check Pods Manifest.lock */,
+				4C5F49281E03E40300266D3E /* Sources */,
+				4C5F49291E03E40300266D3E /* Frameworks */,
+				4C5F492A1E03E40300266D3E /* Resources */,
+				7CE61469C973DFA3963B469E /* [CP] Embed Pods Frameworks */,
+				A608EFA81B9CE80015396DF8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WangYiDetail;
+			productName = WangYiDetail;
+			productReference = 4C5F492C1E03E40300266D3E /* WangYiDetail.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C5F49241E03E40300266D3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WZ;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = songbiwen;
+				TargetAttributes = {
+					4C5F492B1E03E40300266D3E = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 8XMYBN9U4K;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4C5F49271E03E40300266D3E /* Build configuration list for PBXProject "WangYiDetail" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C5F49231E03E40300266D3E;
+			productRefGroup = 4C5F492D1E03E40300266D3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C5F492B1E03E40300266D3E /* WangYiDetail */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C5F492A1E03E40300266D3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5F493F1E03E40400266D3E /* LaunchScreen.storyboard in Resources */,
+				4C5F493C1E03E40400266D3E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7CE61469C973DFA3963B469E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WangYiDetail/Pods-WangYiDetail-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A608EFA81B9CE80015396DF8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WangYiDetail/Pods-WangYiDetail-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA57D403D662FA73B53D2E75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C5F49281E03E40300266D3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5F494B1E03EA0D00266D3E /* WZRequest.m in Sources */,
+				4C5F49481E03E85700266D3E /* WZMainController.m in Sources */,
+				4C5F49341E03E40300266D3E /* AppDelegate.m in Sources */,
+				4C5F49311E03E40300266D3E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4C5F493D1E03E40400266D3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C5F493E1E03E40400266D3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C5F49411E03E40400266D3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4C5F49421E03E40400266D3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C5F49441E03E40400266D3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F877759AAF8119981388C06 /* Pods-WangYiDetail.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8XMYBN9U4K;
+				INFOPLIST_FILE = WangYiDetail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.renhedao.WangYiDetail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4C5F49451E03E40400266D3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE91BC4F2696486448DEF210 /* Pods-WangYiDetail.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8XMYBN9U4K;
+				INFOPLIST_FILE = WangYiDetail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.renhedao.WangYiDetail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C5F49271E03E40300266D3E /* Build configuration list for PBXProject "WangYiDetail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C5F49411E03E40400266D3E /* Debug */,
+				4C5F49421E03E40400266D3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C5F49431E03E40400266D3E /* Build configuration list for PBXNativeTarget "WangYiDetail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C5F49441E03E40400266D3E /* Debug */,
+				4C5F49451E03E40400266D3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C5F49241E03E40300266D3E /* Project object */;
+}
