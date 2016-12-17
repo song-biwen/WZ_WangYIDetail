@@ -13,6 +13,12 @@
 		4C5F493F1E03E40400266D3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C5F493D1E03E40400266D3E /* LaunchScreen.storyboard */; };
 		4C5F49481E03E85700266D3E /* WZMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5F49471E03E85700266D3E /* WZMainController.m */; };
 		4C5F494B1E03EA0D00266D3E /* WZRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5F494A1E03EA0D00266D3E /* WZRequest.m */; };
+		4CAA36CB1E04E28A00F1237C /* C8DGF22A00038FO9.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAA36C01E04E28A00F1237C /* C8DGF22A00038FO9.m */; };
+		4CAA36CC1E04E28A00F1237C /* Img.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAA36C31E04E28A00F1237C /* Img.m */; };
+		4CAA36CD1E04E28A00F1237C /* RelativeSys.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAA36C51E04E28A00F1237C /* RelativeSys.m */; };
+		4CAA36CE1E04E28A00F1237C /* TopiclistNews.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAA36C71E04E28A00F1237C /* TopiclistNews.m */; };
+		4CAA36CF1E04E28A00F1237C /* Video.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAA36C91E04E28A00F1237C /* Video.m */; };
+		4CAA36D11E04F2CC00F1237C /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 4CAA36D01E04F2CC00F1237C /* style.css */; };
 		BB2330954A994064A474ABB5 /* libPods-WangYiDetail.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49A2E7DFF1572F722E22EB63 /* libPods-WangYiDetail.a */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +35,18 @@
 		4C5F49471E03E85700266D3E /* WZMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZMainController.m; sourceTree = "<group>"; };
 		4C5F49491E03EA0D00266D3E /* WZRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZRequest.h; sourceTree = "<group>"; };
 		4C5F494A1E03EA0D00266D3E /* WZRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZRequest.m; sourceTree = "<group>"; };
+		4CAA36BF1E04E28A00F1237C /* C8DGF22A00038FO9.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C8DGF22A00038FO9.h; sourceTree = "<group>"; };
+		4CAA36C01E04E28A00F1237C /* C8DGF22A00038FO9.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C8DGF22A00038FO9.m; sourceTree = "<group>"; };
+		4CAA36C11E04E28A00F1237C /* DataModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModels.h; sourceTree = "<group>"; };
+		4CAA36C21E04E28A00F1237C /* Img.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Img.h; sourceTree = "<group>"; };
+		4CAA36C31E04E28A00F1237C /* Img.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Img.m; sourceTree = "<group>"; };
+		4CAA36C41E04E28A00F1237C /* RelativeSys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RelativeSys.h; sourceTree = "<group>"; };
+		4CAA36C51E04E28A00F1237C /* RelativeSys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RelativeSys.m; sourceTree = "<group>"; };
+		4CAA36C61E04E28A00F1237C /* TopiclistNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopiclistNews.h; sourceTree = "<group>"; };
+		4CAA36C71E04E28A00F1237C /* TopiclistNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopiclistNews.m; sourceTree = "<group>"; };
+		4CAA36C81E04E28A00F1237C /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		4CAA36C91E04E28A00F1237C /* Video.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Video.m; sourceTree = "<group>"; };
+		4CAA36D01E04F2CC00F1237C /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
 		8F877759AAF8119981388C06 /* Pods-WangYiDetail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WangYiDetail.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WangYiDetail/Pods-WangYiDetail.debug.xcconfig"; sourceTree = "<group>"; };
 		AE91BC4F2696486448DEF210 /* Pods-WangYiDetail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WangYiDetail.release.xcconfig"; path = "Pods/Target Support Files/Pods-WangYiDetail/Pods-WangYiDetail.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,7 +75,7 @@
 		4C5F49231E03E40300266D3E = {
 			isa = PBXGroup;
 			children = (
-				4C5F492E1E03E40300266D3E /* WangYiDetail */,
+				4CAA36BC1E04E25800F1237C /* Class */,
 				4C5F492D1E03E40300266D3E /* Products */,
 				0AC3D219CA331A21B9FFAA9E /* Pods */,
 				59A47B173FB85DCC474AEA40 /* Frameworks */,
@@ -81,6 +99,18 @@
 				4C5F49471E03E85700266D3E /* WZMainController.m */,
 				4C5F49491E03EA0D00266D3E /* WZRequest.h */,
 				4C5F494A1E03EA0D00266D3E /* WZRequest.m */,
+				4CAA36BF1E04E28A00F1237C /* C8DGF22A00038FO9.h */,
+				4CAA36C01E04E28A00F1237C /* C8DGF22A00038FO9.m */,
+				4CAA36C11E04E28A00F1237C /* DataModels.h */,
+				4CAA36C21E04E28A00F1237C /* Img.h */,
+				4CAA36C31E04E28A00F1237C /* Img.m */,
+				4CAA36C41E04E28A00F1237C /* RelativeSys.h */,
+				4CAA36C51E04E28A00F1237C /* RelativeSys.m */,
+				4CAA36C61E04E28A00F1237C /* TopiclistNews.h */,
+				4CAA36C71E04E28A00F1237C /* TopiclistNews.m */,
+				4CAA36C81E04E28A00F1237C /* Video.h */,
+				4CAA36C91E04E28A00F1237C /* Video.m */,
+				4CAA36D01E04F2CC00F1237C /* style.css */,
 				4C5F493B1E03E40400266D3E /* Assets.xcassets */,
 				4C5F493D1E03E40400266D3E /* LaunchScreen.storyboard */,
 				4C5F49401E03E40400266D3E /* Info.plist */,
@@ -95,6 +125,14 @@
 				4C5F49301E03E40300266D3E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CAA36BC1E04E25800F1237C /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				4C5F492E1E03E40300266D3E /* WangYiDetail */,
+			);
+			name = Class;
 			sourceTree = "<group>";
 		};
 		59A47B173FB85DCC474AEA40 /* Frameworks */ = {
@@ -169,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C5F493F1E03E40400266D3E /* LaunchScreen.storyboard in Resources */,
+				4CAA36D11E04F2CC00F1237C /* style.css in Resources */,
 				4C5F493C1E03E40400266D3E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,9 +268,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C5F494B1E03EA0D00266D3E /* WZRequest.m in Sources */,
+				4CAA36CC1E04E28A00F1237C /* Img.m in Sources */,
 				4C5F49481E03E85700266D3E /* WZMainController.m in Sources */,
+				4CAA36CF1E04E28A00F1237C /* Video.m in Sources */,
+				4CAA36CD1E04E28A00F1237C /* RelativeSys.m in Sources */,
 				4C5F49341E03E40300266D3E /* AppDelegate.m in Sources */,
 				4C5F49311E03E40300266D3E /* main.m in Sources */,
+				4CAA36CB1E04E28A00F1237C /* C8DGF22A00038FO9.m in Sources */,
+				4CAA36CE1E04E28A00F1237C /* TopiclistNews.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
